@@ -1,0 +1,55 @@
+#hbox_main{
+    z-index: 999;
+    visibility: visible;
+    width: 18.0em;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: left;
+    padding: 1.0em;
+    position: absolute;
+    font-size: 0.8em;
+}
+.hbox_title{
+    text-align: center;
+}
+.hbox_book_cover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 18.0em;
+}
+.hbox_text_right{
+    text-align: right;
+}
+.hbox_tags{
+    font-size: 0.6em;
+    padding: 0;
+}
+.warp_icon{
+    width: 3.0em;
+    height: auto;
+}
+.warp_icon_rayriffy{
+    width: 1.6em;
+    height: auto;
+}
+.show {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+.hide_fast {
+    opacity: 0;
+}
+.hide {
+    opacity: 0;
+    transition: opacity 300ms;
+}
+.clicker{
+    color: #fff;
+    text-decoration: none;
+}
+.clicker:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

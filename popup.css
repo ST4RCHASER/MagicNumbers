@@ -1,0 +1,48 @@
+body {
+  background: #121212;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .7rem;
+  margin: 0;
+  min-width: 30rem;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  align-items: center;
+  border-bottom: 1px solid #FBC02D;
+  height: 2rem;
+  display: flex;
+  padding-left: 1rem;
+  background: rgb(17, 15, 12);
+}
+.header__link:focus {
+  outline: none;
+}
+td{
+  font-size: .7rem;
+  white-space: nowrap;
+}
+.container {
+  min-height: 5rem;
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+.cover{
+    width: 4em;
+    height: auto;
+}
+.option_btn {
+    margin-left:auto;
+    margin-right:1rem;
+    display: inline;
+}
+.clicker{
+  text-decoration: none;
+}
+.clicker:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.delete_btn{
+    max-height: 0.6rem;
+    display: inline;
+}
